@@ -1,6 +1,9 @@
 package com.gitExample;
 
 public class AddMethod {
+    public int subMethod(int a , int b){
+        return a-b;
+    }
     public int addMethod(int a, int b){
         return a + b;
     }
@@ -10,6 +13,7 @@ public class AddMethod {
         int b= 50;
         int res = add.addMethod(a,b);
         System.out.println(res);
+        System.out.println( add.subMethod(a,b));
 
     }
 }
